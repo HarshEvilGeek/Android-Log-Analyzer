@@ -2,7 +2,7 @@ import sys
 import zipfile
 import re
 
-app_marker_name = 'com.fiberlink'
+app_marker_name = ‘<app name>’
 cmd_marker = 'Cmd line: '
 key_word_device_info = 'device'
 key_word_anr = 'anr'
