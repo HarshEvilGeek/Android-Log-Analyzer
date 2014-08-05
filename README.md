@@ -1,4 +1,4 @@
-Android-ANR-Analyzer
+Android-Log-Analyzer
 ====================
 
-A simple python script to analyze Android ANR logs
+A simple python script to analyze Android logs
