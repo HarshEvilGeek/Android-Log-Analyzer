@@ -18,3 +18,5 @@ After you have modified the python script, pass the file/directory/zipfile you w
 python androidloganalyzer.py "your file" > output.txt
 
 (you must have python installed) Please feel free to email me (akhilcherian@gmail.com) with any questions or suggestions
+
+Currently requires Python 3.3+ , will modify to fix this
