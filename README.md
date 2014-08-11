@@ -15,8 +15,9 @@ How to Use:
 
 After you have modified the python script, pass the file/directory/zipfile you wish to analyze as the argument
 
-python androidloganalyzer.py "your file" > output.txt
-
-(you must have python installed) Please feel free to email me (akhilcherian@gmail.com) with any questions or suggestions
-
-Currently requires Python 3.3+ , will modify to fix this
+Python 3
+  python androidloganalyzer.py "your file" > output.txt
+Python 2
+  python androidloganalyzerP2.py "your file" > output.txt
+  
+Please feel free to email me (akhilcherian@gmail.com) with any questions or suggestions
