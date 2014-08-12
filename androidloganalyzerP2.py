@@ -4,7 +4,7 @@ import re
 import os
 
 #configure these lines according to the app you wish to analyze
-app_marker_name = 'com.fiberlink'
+app_marker_name = '<app-name>'
 key_word_agent = 'agent'
 key_word_device_info = 'device'
 
