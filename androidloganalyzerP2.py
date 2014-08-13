@@ -127,6 +127,7 @@ def processAnr(filename, logfile):
 			currentthread = int(re.findall('\d+',analyze)[0])
 			identifier = (currentapp, currentthread)
 			if identifier in threadstoprint:
+				print('In app ' + currentapp + ':')
 				p = True
 			else:
 				p = False
