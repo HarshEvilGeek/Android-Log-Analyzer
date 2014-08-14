@@ -7,9 +7,12 @@ Setup:
 
 After you download the py script, modify the key_words to correspond to your app
 
-app_marker_name = "all or part of your app name - com.example"
-key_word_agent = "whatever identifies your agent logs"
-key_word_device = "whatever identifies device info in your logs (if any)"
+app_marker_name = all or part of your app name - "com.example"
+key_word_agent = "a word contained in your agent logs"
+key_word_device = "a word contained in your device logs (if any)"
+key_word_anr = "a word contained in your anr logs"
+
+If you're analyzing a single file, please make sure it's named according to the above convention.
 
 How to Use:
 
