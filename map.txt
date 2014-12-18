@@ -1,0 +1,3 @@
+App Starts : Device memory
+Connectivity Changes : received connectivity change
+Master Sync Off : Mailbox Inbox of type 0 is not background syncable because master sync is off
