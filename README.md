@@ -16,11 +16,12 @@ If you're analyzing a single file, please make sure it's named according to the 
 
 How to Use:
 
-After you have modified the python script, pass the file/directory/zipfile you wish to analyze as the argument
+I've configured the map.txt file for my app. It's detecting connectivity changes and app restarts (based on logs that my app prints). You can change the map.txt file to make the script search for whatever you want.
 
-Python 3
+<What you are looking for> : <A string you will see in the log file when this event happens>
+
+After you have modified the python script and map.txt, pass the file/directory/zipfile you wish to analyze as the argument
+
   python androidloganalyzer.py "your file" > output.txt
-Python 2
-  python androidloganalyzerP2.py "your file" > output.txt
   
 Please feel free to email me (akhilcherian@gmail.com) with any questions or suggestions
